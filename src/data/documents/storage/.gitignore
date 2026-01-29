@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# Generated vector store
+storage/faiss.index
+storage/chunks.json
+
+# Documents should stay local
+data/documents/*
+!data/documents/.keep
